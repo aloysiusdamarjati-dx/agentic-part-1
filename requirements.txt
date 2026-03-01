@@ -51,12 +51,7 @@ griffe==0.36.9
 grpcio==1.67.1
 guardrails-ai==0.6.6
 guardrails-api-client==0.4.0a1
-guardrails-grhub-detect-pii==0.0.5
-guardrails-grhub-lowercase==0.0.0
-guardrails-grhub-regex-match==0.0.0
-guardrails-grhub-secrets-present==0.0.0
-guardrails-grhub-valid-length==0.0.0
-guardrails-grhub-valid-range==0.0.0
+# Guardrails Hub validators (install via `guardrails hub install` - see README)
 guardrails_hub_types==0.0.4
 h11==0.16.0
 hf-xet==1.1.2
@@ -118,7 +113,7 @@ MarkupSafe==3.0.2
 marshmallow==3.26.1
 matplotlib-inline==0.1.7
 mdurl==0.1.2
-milvus-lite==2.4.12
+# milvus-lite excluded: not supported on Windows (Ubuntu/macOS only)
 mpmath==1.3.0
 multidict==6.4.3
 multitasking==0.0.11

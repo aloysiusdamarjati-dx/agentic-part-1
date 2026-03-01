@@ -7,8 +7,17 @@ The FAQ Agent answers frequently asked questions about Dexa Medica using RAG ove
 ### Setup
 
 1. Install dependencies: `pip install -r requirements.txt`
-2. Copy `.env_template` to `.env` and fill in `OPENAI_API_KEY`, `DB_PATH`, and optionally `LANGSMITH_API_KEY`
-3. Download FAQ PDF: `python scripts/download_faq_pdf.py` (or place `docs/FAQ Dexa Medica.pdf` manually)
+2. **Guardrails Hub validators** (required for Lab 7): Run `guardrails configure` with your [Guardrails Hub](https://hub.guardrailsai.com/) API key, then:
+   ```bash
+   guardrails hub install hub://guardrails/detect_pii
+   guardrails hub install hub://guardrails/lowercase
+   guardrails hub install hub://guardrails/regex_match
+   guardrails hub install hub://guardrails/secrets_present
+   guardrails hub install hub://guardrails/valid_length
+   guardrails hub install hub://guardrails/valid_range
+   ```
+3. Copy `.env_template` to `.env` and fill in `OPENAI_API_KEY`, `DB_PATH`, and optionally `LANGSMITH_API_KEY`
+4. Download FAQ PDF: `python scripts/download_faq_pdf.py` (or place `docs/FAQ Dexa Medica.pdf` manually)
 
 ### Run
 
