@@ -160,6 +160,8 @@ cython_debug/
 #.idea/
 
 .langgraph_api
+chroma_faq/
 
 # VS Code
 .vscode/
+.cursor/

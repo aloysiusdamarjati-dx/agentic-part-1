@@ -1,0 +1,5 @@
+[
+  {"question": "Bagaimana cara pemesanan produk?", "reference": "Pemesanan dapat dilakukan melalui website resmi atau menghubungi customer service."},
+  {"question": "Apa metode pembayaran yang tersedia?", "reference": "Metode pembayaran meliputi transfer bank, kartu kredit, dan pembayaran di tempat."},
+  {"question": "Berapa lama waktu pengiriman?", "reference": "Pengiriman umumnya 3-5 hari kerja untuk area Jakarta, 5-7 hari kerja untuk luar Jakarta."}
+]
